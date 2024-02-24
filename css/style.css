@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+li{
+    list-style:none;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 , p {
+    padding: 0;
+}
+img{
+    vertical-align: middle;
+}
+.navbar-brand{
+    padding-left: 100px;
+}
+.navbar{
+    position: absolute;
+    width:100%;
+} 
+.nav-item a{
+    color:#fff;
+    padding-right: 30px;
+}
+/********************** banner part start******************** */
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:300px 0px;
+}
+.banner-text h4{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.51px;
+    letter-spacing: 7px;
+    color:#FFC178;
+    text-transform: capitalize;
+    padding-bottom: 37px;;
+
+}
+.banner-text h1{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 96px;
+    letter-spacing: 6px;
+    color:#fff;
+    line-height: 60px;
+}
+.banner-text h2{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 400;
+    font-size: 88px;
+    letter-spacing: 6px;
+    color:#fff;
+}
+/********************** banner part end******************** */
+/********************** holiday part start***************** */
+#holiday{
+    padding:180px 0px;
+    background-color: black;
+}
+.holiday-text{
+       margin-top: 40px;
+}
+.holiday-text h4{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color:#FBD784;
+}
+.holiday-text h2{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 64px;
+    color:#fff;
+}
+.holiday-text p{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 600;
+    font-size: 14px;
+    color:#fff;
+}
+.btn{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    color:#FBD784;
+    text-transform: capitalize;
+}
+/********************** holiday part end********************* */
+/*********************** about part start********************* */
+ #about{
+    background-color: black;
+    padding:100px 0px;
+} 
+.about-main{
+    background-image:url(../images/mountain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:100px 0px;
+}
+.about-main h4{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    color:#FBD784;
+    letter-spacing: 6px;
+    padding-top: 560px;
+}
+.about-main h2{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 64px;
+    color:#fff;
+    padding:0px 250px;
+}
+.about-main p{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+    color:#fff;
+    padding:0px 200px;
+}
+/* *******************about part end************************ */
+/******************* culture part start******************* */
+#culture{
+    padding:100px 0px;
+    background-color: black;
+}
+.culture-text h4{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color:#FBD784;
+}
+.culture-text h2{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 64px;
+    color:#fff;
+}
+.culture-text p{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    color:#fff;
+}
+/******************* culture part end******************* */
+/********************* footer part start*************** */
+#footer{
+    padding:50px 0px;
+    background-color: black;
+}
+.main{
+    display: flex;
+}
+.ready h4{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 400;
+    font-size: 22px;
+    color:#fff;
+    letter-spacing: -0.3px;
+    margin: 12px 10px 0px 0px;
+}
+.start a{
+  padding:18px 67px;
+  background-color: #FFA343;
+  color:black;
+  border-radius: 10px;
+}
+.second{
+    margin-top: 30px;;
+}
+.second h3{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -0.3px;
+    color:white;
+}
+.second h5{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    color:white;
+}
+.second i{
+    font-size: 21px;
+    color:#fff;
+    padding-right: 10px;
+}
+
+.main-list{
+    display:flex;
+    justify-content: space-between;
+}
+.main-list h5{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.23px;
+    color:#FFD1A0;
+    padding-top: 20px;
+}
+.main-list li{
+    font-family:"Open Sans", sans-serif; 
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: -0.2px;
+    color:#fff;
+}
+.one li:first-child {
+   margin-top: 60px;
+}
+/********************** footer part end********************* */
